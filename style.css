@@ -518,13 +518,13 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
-    margin-top: 6px;
+    margin-top: 0;
 }
 
 .showScrollTop {
@@ -872,7 +872,7 @@ h4 {
     }
 }
 
-@media screen and (min--width: 1024px) and (max-width: 1366px) and (-webkit-pixel-ratio: 1.5) {
+@media screen and (min--width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
