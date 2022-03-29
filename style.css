@@ -835,7 +835,7 @@ h4 {
 .row{ /*Bootsrap ligne 2013*/
     position: relative;
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -858,7 +858,7 @@ h4 {
     }
     
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 820px){
     .bg-presentation { /*Ajout media query background fait un trait blanc en dessous*/
         background-image: url("img/image-de-presentation-800px.jpg");
     }
